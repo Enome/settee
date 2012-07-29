@@ -1,0 +1,16 @@
+{
+        "name": "settee",
+        "version" : "0.0.4",
+        "repository": { "type": "git", "url": "git://github.com/Enome/foobar" },
+        "description": "Personal data layer for couchdb",
+        "author": "Geert Pasteels <twitter.com/enome>",
+        "keywords": [ "couchdb" ],
+        "dependencies": { 
+          "cradle":"0.6.3",
+          "sinon":"*",
+          "request":"*"
+        },
+        "devDependencies": {
+                "should": "*"
+        }
+}
