@@ -12,3 +12,11 @@ module.exports = (event, args...)->
     commit: ->
 
       ee.emit event, args...
+
+  save: sinon.stub().returns
+
+    on: ee.on.bind ee
+
+    commit: ->
+
+      ee.emit event, args...
